@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="css/estilo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+        <title>Contato</title>
+    </head>
+    <body>
+        <h1>Formulário de Contato</h1>
+        <form action="" method="post">
+            <div>
+                <label>Nome e Sobrenome</label>
+            <input type="text" name="nome" value="" placeholder="Nome Completo" required />
+            </div>
+            <div>
+                <label>E-mail</label>
+                <input type="email" name="email" value="" placeholder="email@servidor.com" required/>
+            </div>
+            <div>
+                <label>Assunto da mensagem</label>
+                <select name="assunto">
+                    <option value="pessoal">Pessoal</option>
+                    <option value="profissional">Profissional</option>
+                </select>
+            </div>
+            <div>
+                <label>Gênero</label>
+                <input type="radio" name="genero" value="feminino"/>
+                <label>Feminino</label>
+                <input type="radio" name="genero" value="masculino"/>
+                <label>Masculino</label>
+                <input type="radio" name="genero" value="nao_responder"/>
+                <label>Prefiro não responder</label>
+            </div>
+            <div>
+                <label>Passatempos</label>
+                <input type="checkbox" name="passatempos" value="leitura">
+                <label>Leitura</label>
+                <input type="checkbox" name="passatempos" value="esportes">
+                <label>Praticar Esportes</label>
+                <input type="checkbox" name="passatempos" value="viajar">
+                <label>Viajar</label>
+                <input type="checkbox" name="passatempos" value="gastronomia">
+                <label>Gastronomia</label>
+                <input type="checkbox" name="passatempos" value="dancar">
+                <label>Dançar</label>
+            </div>
+            <div>
+                <label>Comentários</label><br>
+                <textarea name="comentario" rows="10" cols="50" placeholder="Deixe sua mensagem"></textarea>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Excluir</button>
+            </div>
+        </form>
+        <div>
+            <p><a href="index.html">Voltar para página inicial</a></p>
+            <p><a href="hobbies.html">Hobbies</a></p>
+        </div>
+    </body>
+</html>

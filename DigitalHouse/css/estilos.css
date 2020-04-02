@@ -1,0 +1,45 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #ffeecc;
+}
+
+h1{
+    text-align: center;
+    color: #800000;
+    font-size: 45px;
+    font-style: italic;
+}
+
+h2{
+    color: #990000;
+    font-size: 25px;
+    font-weight: normal;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3{
+    font-weight: normal;
+    text-decoration: underline;
+    color: #b30000;
+    font-size: 20px;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 9px;
+}
+
+ul{
+    margin: auto;
+    position: relative;
+    width: 75%;
+}
+
+li{
+    margin: auto;
+    width: 75%;
+    position: relative;
+}

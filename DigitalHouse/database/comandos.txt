@@ -1,0 +1,15 @@
+select * from funcionarios;
+
+select sum(valor) as Total from oss where id_bairro=3;
+
+select count(*) from oss where data='2019-11-18'; 
+
+select id_bairro, sum(valor) as Total from oss group by id_bairro;
+
+select id_bairro, sum(valor) as Total from oss group by id_bairro order by 2 desc limit 0,1;
+
+select * from funcionarios f inner join equipes e on f.id_equipe=e.id;
+
+select o.id, o.endereco, t.nome as ordem, b.nome as bairro from oss o inner join tipos_de_os t on o.id_tipo=t.id inner join bairros b on o.id_bairro=b.id;
+
+select e.id, e.nome, count(id_os) from equipes e left join oss_equipes oe on e.id=oe.id_equipe group by e.id;

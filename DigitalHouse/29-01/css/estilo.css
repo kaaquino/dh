@@ -1,0 +1,170 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    /*background-image: url("../images/background3.png");*/
+}
+
+
+
+h1{
+    text-align: center;
+    background-color: rgba(230, 59, 116, 0.1);
+    color: #D6A21E;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.destaque{
+    color: rgba(6, 113, 132, 1);
+    background-color:-webkit-linear-gradient(to bottom, #6d6027, #d3cbb8);
+}
+
+h2{
+    background-color: #ac986c80;
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+h3{
+    font-weight: normal;
+    text-decoration: underline;
+    color: #b30000;
+    font-size: 20px;
+}
+
+p{
+    font-size: 14px;
+    line-height: 15px;
+}
+
+div{
+    position: relative;
+}
+
+mark{
+    background-color: rgba(226, 246, 13, 0.4);
+}
+
+strong{
+    color: #EE7A06;
+}
+
+em{
+    height: 20px;
+}
+
+textarea{
+    resize: vertical;
+    overflow: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #ff0000;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(121, 30, 30);
+}
+
+a:active{
+    color: #000000;
+}
+
+
+input{
+    background-color: rgba(219, 148, 81, 0.1);
+}
+
+input:focus{
+    background-color: rgba(199, 192, 129, 0.5);
+}
+
+img:hover{
+    border-radius: 20px;
+}
+
+.cabecalho, .perfil, .pessoais, .formacao, .experiencia, .falecomigo, .rodape{
+    border-style: dotted;
+    border-color: blue;
+    border-width: 5px;
+    align-content: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.cabecalho{
+    background-color: #b35900;
+    width: 960px;
+    
+}
+
+.perfil{
+    background-color: #e6e600;
+    width: 960px;
+}
+
+.pessoais{
+    background-color: #bbff33;
+    width: 960px;
+}
+
+.formacao{
+    background-color: #bb33ff;
+    width: 960px;
+}
+
+.experiencia{
+    background-color: #1affc6;
+    width: 960px;
+}
+
+.falecomigo{
+    background-color: #ffa64d;
+    width: 960px;
+}
+
+.rodape{
+    background-color: #bfbfbf;
+    width: 960px;
+    margin-bottom: 20px;
+}
+
+.passatempos-cabecalho{
+    position: relative;
+    top: auto;
+    background-color: red;
+}
+
+.corpo{
+    display: flex;
+    width: 100%;
+    background-color: yellow;
+}
+
+.links-article{
+    left: 0;
+    display: block;
+    width: 25%;
+    background-color: blue;
+}
+
+.medias-article{
+    /*width: 300px;*/
+    right: 0;
+    display: inline-flex;
+    width: 75%;
+    background-color: violet;
+}
+
+.hobbies-rodape{
+    bottom: auto;
+    width: 100%;
+    right: 0;
+    height: 100px;
+    display: block;
+    background-color: orange;
+}

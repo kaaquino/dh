@@ -1,0 +1,47 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-image: url("../images/background3.png");
+}
+
+
+
+h1{
+    text-align: center;
+    background-color: rgba(199, 218, 254, 1);
+    color: #800000;
+    font-size: 45px;
+    font-style: italic;
+}
+
+h2{
+    background-color:#6D6027;
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+h3{
+    font-weight: normal;
+    text-decoration: underline;
+    color: #b30000;
+    font-size: 20px;
+}
+
+p{
+    font-size: 14px;
+    line-height: 9px;
+}
+
+.destaque{
+    color: rgba(6, 113, 132, 1);
+    background-color:-webkit-linear-gradient(to bottom, #6d6027, #d3cbb8);
+}
+
+h2>p{
+    color: red;
+}
+
+div{
+    position: relative;
+}

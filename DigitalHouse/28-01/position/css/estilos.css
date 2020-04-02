@@ -1,0 +1,35 @@
+.a{
+    /*z-index: 999;
+    bottom: 500px;*/
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    z-index: -1;
+}
+
+.b{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: -1;
+}
+
+.c{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    z-index: 99;
+}
+
+.d{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+}

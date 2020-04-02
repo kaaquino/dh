@@ -1,0 +1,38 @@
+.rodape{
+    background-color: #bfbfbf;
+    width: 960px;
+    margin-bottom: 20px;
+}
+
+.passatempos-cabecalho{
+    /*display: block;*/
+    position: relative;
+    top: auto;
+}
+
+.corpo{
+    display: flex;
+}
+
+.links-article{
+    left: 0;
+    display: block;
+    position: absolute;
+    width: 25%;
+}
+
+.medias-article{
+    /*width: 300px;*/
+    right: 0;
+    display: flex;
+    position: absolute;
+    width: 75%;
+}
+
+.hobbies-rodape{
+    /*position: relative;*/
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    /*display: block;*/
+}
